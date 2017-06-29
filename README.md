@@ -1,6 +1,8 @@
 # Tools
 
-Quick note for iOS development tools. 
+Quick note for iOS development tools :
+* [Cocoapods](#cocoapods)
+* [Vapor](#vapor)
 
 ## Cocoapods  
 
@@ -31,3 +33,22 @@ If lint passing, push to cocoapods :
 ```
 pod trunk push <my_pod_file>.podspec
 ``` 
+
+## Vapor  
+
+Clean : 
+```
+vapor clean -y
+```
+
+Build : 
+```
+vapor build 
+```
+
+Generate Xcode project (to build with SPM dependency) : 
+```
+var xcode 
+```
+
+## Fastlane  
