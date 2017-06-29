@@ -1,6 +1,6 @@
 # Tools
 
-Quick note for iOS development tools :
+Quick note for iOS/macOS development tools :
 * [Cocoapods](#cocoapods)
 * [Vapor](#vapor)
 
@@ -48,7 +48,12 @@ vapor build
 
 Generate Xcode project (to build with SPM dependency) : 
 ```
-var xcode 
+vapor xcode 
+```
+
+Deploy on heroku (after login with heroku toolbox) :
+``` 
+vapor heroku push 
 ```
 
 ## Fastlane  
