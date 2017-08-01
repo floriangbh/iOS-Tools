@@ -68,7 +68,7 @@ Update all :
 carthage update 
 ```
 
-## Vapor  
+## Vapor
 
 Clean : 
 ```
@@ -90,7 +90,7 @@ Deploy on heroku (after login with heroku toolbox) :
 vapor heroku push 
 ```
 
-## Swiftlint  
+## Swiftlint
 
 [A tool to enforce Swift style and conventions.](https://github.com/realm/SwiftLint)
 
