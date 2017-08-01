@@ -59,13 +59,13 @@ github "ashleymills/Reachability.swift" ~> 3.0
 
 Install carthage (based on `Cartfile.resolved`) :
 ```
-carthage bootstrap
+carthage bootstrap --platform iOS
 ``` 
 
 Update all : 
 
 ```
-carthage update 
+carthage update --platform iOS
 ```
 
 ## Vapor
