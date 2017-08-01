@@ -14,7 +14,7 @@ pod '<pod_name>'
 pod '<pod_name>', :git => '<repo_url>.git', :branch => '<branch_name>' #specify branch 
 pod '<pod_name>', :git => '<repo_url>.git', :commit => '<commit_tag>' #specify commit 
 ``` 
-Install pods (from `Podfile.lock`) :
+Install pods (based on `Podfile.lock`) :
 ```
 pod install
 ``` 
