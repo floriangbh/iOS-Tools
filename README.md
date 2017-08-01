@@ -90,7 +90,7 @@ Deploy on heroku (after login with heroku toolbox) :
 vapor heroku push 
 ```
 
-## SwiftLint  
+## Swiftlint  
 
 [A tool to enforce Swift style and conventions.](https://github.com/realm/SwiftLint)
 
