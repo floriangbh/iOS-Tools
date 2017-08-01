@@ -92,5 +92,28 @@ vapor heroku push
 
 ## SwiftLint  
 
+[A tool to enforce Swift style and conventions.](https://github.com/realm/SwiftLint)
 
-## Fastlane  
+Installation : 
+``` 
+brew install swiftlint
+```
+
+Auto correction
+``` 
+swiftlint autocorrect
+```
+
+To add SwiftLint to xcodeproject just add a new "Run Script Phase" : 
+```swift
+if which swiftlint >/dev/null; then
+  swiftlint
+else
+  echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+fi
+```
+
+
+## Fastlane
+
+Todo
