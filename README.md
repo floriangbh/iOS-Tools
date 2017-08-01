@@ -51,31 +51,22 @@ Install [Carthage](https://github.com/Carthage/Carthage) :
 brew install carthage
 ``` 
 
-Pod declaration in `Podfile` :
+Declaration in `Cartfile` (exemple) :
 ```
-pod '<pod_name>' 
-pod '<pod_name>', :git => '<repo_url>.git', :branch => '<branch_name>' #specify branch 
-pod '<pod_name>', :git => '<repo_url>.git', :commit => '<commit_tag>' #specify commit 
-``` 
-Install pods (based on `Podfile.lock`) :
-```
-pod install
-``` 
-Update all pods : 
-```
-pod update
+github "ashleymills/Reachability.swift" 
+github "ashleymills/Reachability.swift" ~> 3.0
 ``` 
 
-### Publish new pod version 
+Install carthage (based on `Cartfile.resolved`) :
+```
+carthage bootstrap
+``` 
 
-Check project before push to cocoapods :
+Update all : 
+
 ```
-pod spec lint <my_pod_file>.podspec
-``` 
-If lint passing, push to cocoapods : 
+carthage update 
 ```
-pod trunk push <my_pod_file>.podspec
-``` 
 
 ## Vapor  
 
