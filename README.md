@@ -6,6 +6,7 @@ Quick note for iOS/macOS development tools :
 * [Fastlane](#fastlane)
 * [Carthage](#carthage)
 * [Vapor](#vapor)
+* [Jazzy](#jazzy)
 
 ## Cocoapods  
 
@@ -99,7 +100,7 @@ Installation :
 brew install swiftlint
 ```
 
-Auto correction
+Auto correction : 
 ``` 
 swiftlint autocorrect
 ```
@@ -113,7 +114,21 @@ else
 fi
 ```
 
-
 ## Fastlane
 
-Todo
+Update Fastlane : 
+```
+fastlane update_fastlane
+```
+
+## Jazzy
+
+Install : 
+```
+sudo gem install ja`zzy -n /usr/local/bin
+```
+
+Generate doc for all files : 
+```
+jazzy --no-download-badge --min-acl private fileprivate internal
+```
