@@ -8,7 +8,9 @@ Quick note for iOS/macOS development tools :
 * [Vapor](#vapor)
 * [Jazzy](#jazzy)
 
-## Cocoapods [(repo)](https://github.com/CocoaPods/CocoaPods)
+## Cocoapods 
+
+[Link to the repository.](https://github.com/CocoaPods/CocoaPods)
 
 ### Manage dependency 
 
@@ -44,7 +46,9 @@ If lint passing, push to cocoapods :
 pod trunk push <my_pod_file>.podspec
 ``` 
 
-## Carthage [(repo)](https://github.com/Carthage/Carthage)
+## Carthage 
+
+[Link to the repository.](https://github.com/Carthage/Carthage)
 
 Install [Carthage](https://github.com/Carthage/Carthage#installing-carthage) : 
 
@@ -69,7 +73,9 @@ Update all :
 carthage update --platform iOS
 ```
 
-## Vapor [(repo)](https://github.com/vapor/vapor)
+## Vapor 
+
+[Link to the repository.](https://github.com/vapor/vapor)
 
 Clean : 
 ```
@@ -91,7 +97,9 @@ Deploy on heroku (after login with heroku toolbox) :
 vapor heroku push 
 ```
 
-## Swiftlint [(repo)](https://github.com/realm/SwiftLint)
+## Swiftlint 
+
+[Link to the repository.](https://github.com/realm/SwiftLint)
 
 [A tool to enforce Swift style and conventions.](https://github.com/realm/SwiftLint#presentation)
 
@@ -114,14 +122,18 @@ else
 fi
 ```
 
-## Fastlane [(repo)](https://github.com/fastlane/fastlane)
+## Fastlane 
+
+[Link to the repository.](https://github.com/fastlane/fastlane)
 
 Update Fastlane : 
 ```
 fastlane update_fastlane
 ```
 
-## Jazzy [(repo)](https://github.com/realm/jazzy)
+## Jazzy 
+
+[Link to the repository.](https://github.com/realm/jazzy)
 
 Install : 
 ```
