@@ -137,7 +137,7 @@ fastlane update_fastlane
 
 Install : 
 ```
-sudo gem install ja`zzy -n /usr/local/bin
+sudo gem install jazzy -n /usr/local/bin
 ```
 
 Generate doc for all files : 
