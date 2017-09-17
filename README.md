@@ -46,7 +46,7 @@ pod trunk push <my_pod_file>.podspec
 
 ## Carthage [(repo)](https://github.com/Carthage/Carthage)
 
-Install [Carthage](https://github.com/Carthage/Carthage) : 
+Install [Carthage](https://github.com/Carthage/Carthage#installing-carthage) : 
 
 ``` 
 brew install carthage
@@ -93,7 +93,7 @@ vapor heroku push
 
 ## Swiftlint [(repo)](https://github.com/realm/SwiftLint)
 
-[A tool to enforce Swift style and conventions.](https://github.com/realm/SwiftLint)
+[A tool to enforce Swift style and conventions.](https://github.com/realm/SwiftLint#presentation)
 
 Installation : 
 ``` 
