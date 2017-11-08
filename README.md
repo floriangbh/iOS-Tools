@@ -126,6 +126,11 @@ fi
 
 [Link to the repository.](https://github.com/fastlane/fastlane)
 
+Install: 
+```
+brew cask install fastlane
+```
+
 Update Fastlane : 
 ```
 fastlane update_fastlane
