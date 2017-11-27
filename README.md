@@ -147,5 +147,5 @@ sudo gem install jazzy -n /usr/local/bin
 
 Generate doc for all files : 
 ```
-jazzy --no-download-badge --min-acl private fileprivate internal
+jazzy --min-acl private fileprivate internal
 ```
