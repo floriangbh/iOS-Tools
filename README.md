@@ -64,7 +64,9 @@ github "ashleymills/Reachability.swift" ~> 3.0
 
 Install carthage (based on `Cartfile.resolved`) :
 ```
-carthage bootstrap --platform iOS
+carthage bootstrap --platform iOS --cache-builds --no-use-binaries # install
+
+carthage update --platform iOS --cache-builds --no-use-binaries # update 
 ``` 
 
 Update all : 
