@@ -7,6 +7,7 @@ Quick note for iOS/macOS development tools :
 * [Carthage](#carthage)
 * [Vapor](#vapor)
 * [Jazzy](#jazzy)
+* [FiraCode](#firacode)
 
 ## Cocoapods 
 
@@ -149,3 +150,10 @@ Generate doc for all files :
 ```
 jazzy --min-acl private fileprivate internal
 ```
+
+## FiraCode
+
+[Link to the repository.](https://github.com/tonsky/FiraCode)
+
+Install : 
+https://github.com/tonsky/FiraCode/wiki
